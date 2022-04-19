@@ -28,3 +28,18 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class RandomWords extends StatefulWidget {
+  const RandomWords({Key? key}) : super(key: key);
+
+  @override
+  State<RandomWords> createState() => _RandomWordsState();
+}
+
+class _RandomWordsState extends State<RandomWords> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
